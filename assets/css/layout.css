@@ -1,0 +1,29 @@
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+}
+
+
+.hero .container,
+.categories .container,
+.products .container,
+.page-header .container,
+.categories-page .container {
+  padding-top: var(--space-5);
+  padding-bottom: var(--space-5);
+}
+
+
+.category-list,
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}

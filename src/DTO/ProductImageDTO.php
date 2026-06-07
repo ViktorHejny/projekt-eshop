@@ -1,0 +1,20 @@
+<?php
+declare(strict_types=1);
+
+final readonly class ProductImageDTO
+{
+    public function __construct(
+        public int $id,
+        public int $productId,
+        public string $image,
+    ) {}
+
+    public static function fromRow(array $row): self
+    {
+        return new self(
+            id: (int)$row['id'],
+            productId: (int)$row['product_id'],
+            image: (string)$row['image'],
+        );
+    }
+}

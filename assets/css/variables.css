@@ -1,0 +1,28 @@
+:root {
+  --bg: #0b0f19;
+  --surface: #121a2a;
+  --surface-2: #0f1625;
+
+  --text: #e8ecf6;
+  --muted: #a8b0c3;
+
+  --primary: #4f8cff;
+  --primary-2: #2b6bff;
+  --danger: #ff4d6d;
+
+  --border: rgba(255, 255, 255, 0.12);
+
+  --radius: 12px;
+  --shadow: 0 12px 34px rgba(0, 0, 0, 0.35);
+
+  --container: 1200px;
+
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+
+  --font: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
