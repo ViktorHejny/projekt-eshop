@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-final readonly class PaymentMethodDTO
+final class PaymentMethodDTO
 {
     public function __construct(
         public int $id,

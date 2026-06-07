@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-final readonly class CartItemDTO
+final class CartItemDTO
 {
     public function __construct(
         public int $productId,
